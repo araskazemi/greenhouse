@@ -122,7 +122,7 @@ Following processes must have been applied:
 **Description:** In addition to meeting all the requirements for basic level, 
 the binding can be endorsed with a higher confidence when the process 
 `http://id.swedenconnect.se/id-binding/process/nordicid` ([4.3](#nordic-id-in-population-register)) 
-can match attribute in the assertion from eIDAS to a registered nordic identification number in the Swedish population register.
+can match attribute in the assertion from eIDAS to a registered Nordic identification number in the Swedish population register.
 
 In summary, following processes must have been applied:
 - `http://id.swedenconnect.se/id-binding/process/registered` ([4.1](#essential-matching-population-register))
@@ -169,7 +169,7 @@ search in population register show that there are no other records found with th
 same birthday and name, thus decision for record matching can be made unambiguously.
 
 <a name="nordic-id-in-population-register"></a>
-### 4.3. Nordic Identification Number found in the Population Register
+### 4.3. Nordic identification number found in the population register
 
 **URI:** `http://id.swedenconnect.se/id-binding/process/nordicid`
 
