@@ -41,7 +41,7 @@ Copyright &copy; <a href="https://www.digg.se">The Swedish Agency for Digital Go
     
     4.5. [A relative has confirmed the binding](#confirmed-by-relative)
  
-    4.6. [Passport or ID-card Scanning](#passport-or-id-card-scanning)
+    4.6. [Passport or ID-card scanning](#passport-or-id-card-scanning)
     
 5. [**Versions**](#versions)
     
@@ -204,7 +204,7 @@ wife, parent and child.
 Swedish eID that meet same requirements as in section [4.2](#use-of-swedish-eid) above.
 
 <a name="passport-or-id-card-scanning"></a>
-### 4.5. Passport or ID-card Scanning
+### 4.5. Passport or ID-card scanning
 
 **URI:** `http://id.swedenconnect.se/id-binding/process/iddoc-scanning`
 
