@@ -35,7 +35,7 @@ Copyright &copy; <a href="https://www.digg.se">The Swedish Agency for Digital Go
 
     4.2. [Elevated matching of record in the poulation register](#elevated-matching-population-register)
     
-    4.3. [Nordic Identification Number found in the population register](#nordic-id-in-population-register)
+    4.3. [Nordic identification number found in the population register](#nordic-id-in-population-register)
 
     4.4. [Use of Swedish eID](#use-of-swedish-eid)
     
