@@ -66,10 +66,7 @@ authenticated through eIDAS, in those cases when:
 
 Identity binding can be made through a number of different record matching processes. 
 These processes are run separately or in combinations and can result in linked 
-identifications based on three different levels of confidence:
-- A: Basic
-- B: Enhanced
-- C: Verified
+identifications based on three different levels of confidence. See [Identity Binding Levels](#identity-binding-levels)
 
 > TODO: Include links to https://elegitimation.se and other resources where we describe
 the ID-matching service.
