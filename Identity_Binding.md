@@ -150,7 +150,7 @@ are used by the Identity Binding Service. Each process is identified with an URI
 be stored in matching records and log entries.
 
 <a name="essential-matching-population-register"></a>
-### 4.1. Essential matching of record in the Population Register
+### 4.1. Essential matching of record in the population register
 
 **URI:** `http://id.swedenconnect.se/id-binding/process/registered`
 
@@ -159,7 +159,7 @@ is found in the Swedish pouplation register. It belongs to a living natural pers
 the value for birthday in record is matched to the birthday attribute from eIDAS. 
 
 <a name="elevated-matching-population-register"></a>
-### 4.2. Elevated  matching of record in the Population Register
+### 4.2. Elevated  matching of record in the population register
 
 **URI:** `http://id.swedenconnect.se/id-binding/process/populationregister`
 
