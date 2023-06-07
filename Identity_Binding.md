@@ -65,7 +65,7 @@ authenticated through eIDAS, in those cases when:
 - end-user have chosen to bound this record to his/her eIDAS notified eID.
 
 Identity binding can be made through a number of different record matching processes. 
-This processes can be run separately or in combination and can result in linked 
+These processes are run separately or in combinations and can result in linked 
 identifications based on three different levels of confidence:
 - A: Basic
 - B: Enhanced
