@@ -52,7 +52,7 @@ number (a.k.a. samordningsnummer) as identifier to carry out the
 authorisation of the authenticated user. These records cannot be found
 in attributes when user authenticatation is performed through eIDAS. 
 
-The Identity Binding Service is an extension to Swedish eIDAS node and 
+The Identity Binding Service is an extension to Swedish eIDAS-node and 
 a part of Sweden's digital infrastructure aimed at linking records in 
 the Swedish population register to notified eIDs from member states 
 outside of Sweden.
@@ -62,11 +62,16 @@ outside of Sweden.
 The Identity Binding Service can be used by end-users, who are 
 authenticated through eIDAS, in those cases when:
 - end-user have a registered record in terms of Swedish personal identification number (a.k.a. personnummer) or the Swedish coordination number (a.k.a. samordningsnummer) in the Swedish population register, and
-- end-user have chosen to bound this record to his/her eIDAS notified eID.
+- end-user have chosen to bound this record to her/his eIDAS notified eID.
+
+When end-user's Swedish records are bound to her/his eID, the Swedish eIDAS-node can 
+provide it as [Mapped Personal Identity Number](https://docs.swedenconnect.se/technical-framework/latest/04_-_Attribute_Specification_for_the_Swedish_eID_Framework.html#the-mappedpersonalidentitynumber-and-personalidentitynumberbinding-attribute) 
+in the assertion to relying party
 
 Identity binding can be made through a number of different record matching processes. 
 These processes are run separately or in combinations and can result in linked 
-identifications based on three different levels of confidence. See [Identity Binding Levels](#identity-binding-levels)
+identifications based on three different levels of confidence. See also 
+[Identity Binding Levels](#identity-binding-levels)
 
 > TODO: Include links to https://elegitimation.se and other resources where we describe
 the ID-matching service.
