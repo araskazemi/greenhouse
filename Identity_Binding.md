@@ -184,30 +184,36 @@ other Nordic country and this number can be found in the assetion from eIDAS.
 
 **URI:** `http://id.swedenconnect.se/id-binding/process/swedish-eid`
 
-**Description:** End-user that has been authenticated with a foreign eID can prove 
-binding to the Swedish identification number by signing a confirmation with her/his 
-Swedish eID.
+**Description:** The end-user, who has been authenticated with a foreign eID, can 
+prove binding to the Swedish identification number by signing a confirmation with 
+her/his Swedish eID.
 
-> **\[1\]:** The Swedish eID must .... (Svensk e-legitimation, godkänd av DIGG) ...
+**Additional requirements:** Assurance for the Swedish eID must be minimum at 
+level 3 in accordance of the Swedish Trust Framework (a.k.a. Tillitsramverk för 
+Svensk e-legitimation). Using eID for this purpose must also be approved by the 
+eID provider.
     
 <a name="confirmed-by-relative"></a>
 ### 4.5. A relative has confirmed the binding
 
 **URI:** `http://id.swedenconnect.se/id-binding/process/relative`
 
-**Description:** A relative to the person making the binding uses an approved
-Swedish eID (see [4.2](#use-of-swedish-eid) above) to attest the correctness
-of the binding.
+**Description:** A relative to the end-user, can log in with her/his Swedish eID 
+and verify binding by signing a confirmation. Relationship must be official and 
+findable in the Swedish population register. Example of relationship is husband, 
+wife, parent and child. 
 
-> Note: Only relationships registered in the Swedish population register will
-be allowed.
+**Additional requirements:** Relative must be at least 18 years old and have a 
+Swedish eID that meet same requirements as in section [4.2](#use-of-swedish-eid) above.
 
 <a name="passport-or-id-card-scanning"></a>
 ### 4.5. Passport or ID-card Scanning
 
 **URI:** `http://id.swedenconnect.se/id-binding/process/iddoc-scanning`
 
-**Description:** A passport ...
+**Description:** The end-user, who has been authenticated with a foreign eID, can 
+prove binding to the Swedish identification number by reading chip from a Swedish 
+identity document, such as passport or ID-card.
 
 <a name="versions"></a>
 ## 5. Versions
