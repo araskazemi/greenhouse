@@ -31,15 +31,17 @@ Copyright &copy; <a href="https://www.digg.se">The Swedish Agency for Digital Go
     
 4. [**Record Matching Processes**](#record-matching-processes)
 
-    4.1. [Matching Against the Population Register](#matching-against-the-population-register)
-    
-    4.2. [Use of Swedish eID](#use-of-swedish-eid)
-    
-    4.3. [Attestation from Relative](#attestation-from-relative)
-    
-    4.4. [Foreign Identity Present in the Population Register](#foreign-identity-present-in-the-population-register)
+    4.1. [Essential matching of record in the Population Register](#essential-matching-population-register)
 
-    4.5. [Passport or ID-card Scanning](#passport-or-id-card-scanning)
+    4.2. [Elevated matching of record in the Poulation Register](#elevated-matching-population-register)
+    
+    4.3. [Nordic Identification Number found in the Population Register](#nordic-id-in-population-register)
+
+    4.4. [Use of Swedish eID](#use-of-swedish-eid)
+    
+    4.5. [A relative has confirmed the binding](#confirmed-by-relative)
+ 
+    4.6. [Passport or ID-card Scanning](#passport-or-id-card-scanning)
     
 5. [**Versions**](#versions)
     
@@ -110,9 +112,7 @@ These levels can be used in the authorisation process by the relying party.
 
 Following processes must have been applied:
 - `http://id.swedenconnect.se/id-binding/process/registered` ([4.1](#matching-against-the-population-register))
-- `http://id.swedenconnect.se/id-binding/process/populationregister` ([4.1](#matching-against-the-population-register))
-
-
+- `http://id.swedenconnect.se/id-binding/process/populationregister` ([4.2](#matching-against-the-population-register))
     
 <a name="enhanced-binding"></a>
 ### 3.2. Enhanced Binding (B)
@@ -143,40 +143,55 @@ been applied as well as at least one of the following processes:
 
 - `http://id.swedenconnect.se/id-binding/process/iddoc-scanning` ([4.5](#passport-or-id-card-scanning))
     
-<a name="identity-binding-processes"></a>
-## 4. Identity Binding Processes
+<a name="record-matching-processes"></a>
+## 4. Record Matching Processes
 
-This section contains a detailed description of the processes of binding identities that
-are possible to perform. Each process is identified with a URI.
+This section contains a detailed description of the record matching processes that
+are used by the Identity Binding Service. Each process is identified with an URI.
 
 > Note: The process URI:s are not part of a resulting SAML assertion. However, they will
 be stored in matching records and log entries.
 
-<a name="matching-against-the-population-register"></a>
-### 4.1. Matching Against the Population Register
+<a name="essential-matching-population-register"></a>
+### 4.1. Essential matching of record in the Population Register
+
+**URI:** `http://id.swedenconnect.se/id-binding/process/registered`
+
+**Description:** A record based on the identification number provided by the end-user 
+is found in the Swedish pouplation register. It belongs to a living natural person and 
+the value for birthday in record is matched to the birthday attribute from eIDAS. 
+
+<a name="elevated-matching-population-register"></a>
+### 4.2. Elevated  matching of record in the Population Register
 
 **URI:** `http://id.swedenconnect.se/id-binding/process/populationregister`
 
-**Description:** ...
+**Description:** Name attributes from eIDAS is matched to record in population register. 
+Population register show that person has emigrated and doesn't live in Sweden. A wide 
+search in population register show that there are no other records found with the 
+same birthday and name, thus decision for record matching can be made unambiguously.
 
-> TODO: Based on the matching in Navet, there can be different strengths on this
-matching. Should we have several URI:s? I suggest that we don't since it will be
-too much to handle.
+<a name="nordic-id-in-population-register"></a>
+### 4.3. Nordic Identification Number found in the Population Register
+
+**URI:** `http://id.swedenconnect.se/id-binding/process/nordicid`
+
+**Description:** Record in population register contains an identification number from 
+other Nordic country and this number can be found in the assetion from eIDAS. 
 
 <a name="use-of-swedish-eid"></a>
-### 4.2. Use of Swedish eID
+### 4.4. Use of Swedish eID
 
 **URI:** `http://id.swedenconnect.se/id-binding/process/swedish-eid`
 
-**Description:** The individual making a binding holds an approved<sup>1</sup> Swedish 
-eID that is used to sign an attestation of the correctness of the binding.
-
-TODO: more
+**Description:** End-user that has been authenticated with a foreign eID can prove 
+binding to the Swedish identification number by signing a confirmation with her/his 
+Swedish eID.
 
 > **\[1\]:** The Swedish eID must .... (Svensk e-legitimation, godkänd av DIGG) ...
     
-<a name="attestation-from-relative"></a>
-### 4.3. Attestation from Relative
+<a name="confirmed-by-relative"></a>
+### 4.5. A relative has confirmed the binding
 
 **URI:** `http://id.swedenconnect.se/id-binding/process/relative`
 
@@ -186,14 +201,6 @@ of the binding.
 
 > Note: Only relationships registered in the Swedish population register will
 be allowed.
-
-<a name="foreign-identity-present-in-the-population-register"></a>
-### 4.4. Foreign Identity Present in the Population Register
-
-**URI:** `http://id.swedenconnect.se/id-binding/process/presentbinding`
-
-**Description:** For some countries a foreign personal identity number may be
-present in the Swedish population register. More ...
 
 <a name="passport-or-id-card-scanning"></a>
 ### 4.5. Passport or ID-card Scanning
@@ -206,5 +213,5 @@ present in the Swedish population register. More ...
 ## 5. Versions
 
 - 2023-04-24: First draft version
-
+- 2023-06-07: Revision of draft
 
