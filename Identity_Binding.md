@@ -48,9 +48,9 @@ Copyright &copy; <a href="https://www.digg.se">The Swedish Agency for Digital Go
 
 Public relying parties in Sweden commonly use the Swedish personal 
 identification number (a.k.a. personnummer) or the Swedish coordination 
-number (a.k.a. samordningsnummer) to carry out identification of the 
-authenticated user. These records are however not provided in attributes 
-when user authenticatation is performed through eIDAS. 
+number (a.k.a. samordningsnummer) as identifier to carry out the 
+authorisation of the authenticated user. These records are however not 
+provided in attributes when user authenticatation is performed through eIDAS. 
 
 The Identity Binding Service is an extension to Swedish eIDAS node and 
 a part of Sweden's digital infrastructure aimed at linking records in 
@@ -61,11 +61,15 @@ outside of Sweden.
 ## 2. The Identity Binding Service
 The Identity Binding Service can be used by end-users, who are 
 authenticated through eIDAS, in those cases when:
-- end-user have a Swedish personal identification number (a.k.a. personnummer) or the Swedish coordination number (a.k.a. samordningsnummer) in the Swedish population register.
-- end-user have chosen to bound this record to his/her eIDAS notified eID
+- end-user have a registered record in terms of Swedish personal identification number (a.k.a. personnummer) or the Swedish coordination number (a.k.a. samordningsnummer) in the Swedish population register, and
+- end-user have chosen to bound this record to his/her eIDAS notified eID.
 
-The process, or processes, of binding a foreign identity to a Swedish personal identity
-number is the responsibility of the Identity Binding service.  
+Identity binding can be made through a number of different record matching processes. 
+This processes can be run separately or in combination and can result in linked 
+identifications based on three different levels of confidence:
+- A: Basic
+- B: Enhanced
+- C: Verified
 
 > TODO: Include links to https://elegitimation.se and other resources where we describe
 the ID-matching service.
