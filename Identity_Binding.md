@@ -102,19 +102,20 @@ Linked identifications through the Identity Binding Service can be provided in t
 These levels can be used in the authorisation process by the relying party. 
 
 <a name="basic-binding"></a>
-### 3.1. Basic Binding
+### 3.1. Basic Binding (A)
 
 **URI:** `http://id.swedenconnect.se/id-binding/level/basic`
 
-**Description:** A basic binding where the identity attributes received from the foreign
-eIDAS-node matches an individual's record in the population register.
+**Description:** Level of confidence in binding as a result from an automated decision process when the eIDAS attributes from the foreign eID are matched to an individual's record in the Swedish population register.
 
-The process `http://id.swedenconnect.se/id-binding/process/populationregister` 
-([4.1](#matching-against-the-population-register)) must have been applied.
+Following processes must have been applied:
+- `http://id.swedenconnect.se/id-binding/process/registered` ([4.1](#matching-against-the-population-register))
+- `http://id.swedenconnect.se/id-binding/process/populationregister` ([4.1](#matching-against-the-population-register))
+
 
     
 <a name="enhanced-binding"></a>
-### 3.2. Enhanced Binding
+### 3.2. Enhanced Binding (B)
 
 **URI:** `http://id.swedenconnect.se/id-binding/level/enhanced`
 
@@ -127,7 +128,7 @@ as at least one of the following processes:
 - `http://id.swedenconnect.se/id-binding/process/relative` ([4.3](#attestation-from-relative))
     
 <a name="verified-binding"></a>
-### 3.3. Verified Binding
+### 3.3. Verified Binding (C)
 
 **URI:** `http://id.swedenconnect.se/id-binding/level/verified`
 
