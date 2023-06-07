@@ -137,7 +137,7 @@ In summary, following processes must have been applied:
 **Description:** A mix of processes must be applied in order to achieve the 
 highest level of confidence in record matching. It requires the process `http://id.swedenconnect.se/id-binding/process/registered` ([4.1](#essential-matching-population-register)) combined with one of the following processes:
 - `http://id.swedenconnect.se/id-binding/process/swedish-eid` ([4.4](#use-of-swedish-eid))
-- `http://id.swedenconnect.se/id-binding/process/presentbinding` ([4.5](#confirmed-by-relative))
+- `http://id.swedenconnect.se/id-binding/process/relative` ([4.5](#confirmed-by-relative))
 - `http://id.swedenconnect.se/id-binding/process/iddoc-scanning` ([4.6](#passport-or-id-card-scanning))
     
 <a name="record-matching-processes"></a>
