@@ -3,7 +3,7 @@
 ### 2023-06-07 (draft)
 
 This document contains information about the binding process when an eIDAS 
-identity is bound to a record in the Swedish population register.
+identity is linked to a record in the Swedish population register.
 
 ---
 
@@ -64,10 +64,11 @@ authenticated through eIDAS, in those cases when:
 - end-user have a registered record in terms of Swedish personal identification number (a.k.a. personnummer) or the Swedish coordination number (a.k.a. samordningsnummer) in the Swedish population register, and
 - end-user have chosen to bound this record to her/his eIDAS notified eID.
 
-When end-user's Swedish records are bound to her/his eID, the Swedish eIDAS-node can 
-provide it as [Mapped Personal Identity Number](https://docs.swedenconnect.se/technical-framework/latest/04_-_Attribute_Specification_for_the_Swedish_eID_Framework.html#the-mappedpersonalidentitynumber-and-personalidentitynumberbinding-attribute) 
-in the assertion to relying party
+When end-user's Swedish records are linked to her/his eID, the Swedish eIDAS-node can 
+provide this information in the assertion to relying party.
 
+<a name="making-a-binding"></a>
+### 2.1. Making a Binding
 Identity binding can be made through a number of different record matching processes. 
 These processes are run separately or in combinations and can result in linked 
 identifications based on three different levels of confidence. See also 
@@ -75,12 +76,6 @@ identifications based on three different levels of confidence. See also
 
 > TODO: Include links to https://elegitimation.se and other resources where we describe
 the ID-matching service.
-
-<a name="making-a-binding"></a>
-### 2.1. Making a Binding
-
-> TODO: A short description of the web-service that the user logs in to and makes the
-binding. No details, we just need to mention that such a service exists.
     
 <a name="eidas-node-queries"></a>
 ### 2.2. eIDAS-node Queries
@@ -103,13 +98,8 @@ about attribute release during an eIDAS authentication.
 
 <a name="identity-binding-levels"></a>
 ## 3. Identity Binding Levels
-
-An identity binding that connects a foreign identity with a Swedish personal identity number ("personnummer" or "samordningsnummer") can be made using different processes. These processes
-are of different strength, and the trustworthiness of a binding is therefore determined by
-an "Identity Binding Level".
-
-This section defines the three levels that are used to represent this trustworthiness and
-a relying party should decide the required level based on the security requirements of the service. 
+Linked identifications through the Identity Binding Service can be provided in three different levels of confidence. 
+These levels can be used in the authorization process by the relying party. 
 
 <a name="basic-binding"></a>
 ### 3.1. Basic Binding
