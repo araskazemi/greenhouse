@@ -134,16 +134,11 @@ In summary, following processes must have been applied:
 
 **URI:** `http://id.swedenconnect.se/id-binding/level/verified`
 
-**Description:** Verified binding. The binding has been verified with strong and trustworthy processes as listed below:
-
-The process `http://id.swedenconnect.se/id-binding/process/populationregister` must have
-been applied as well as at least one of the following processes:
-
-- `http://id.swedenconnect.se/id-binding/process/swedish-eid` ([4.2](#use-of-swedish-eid))
-
-- `http://id.swedenconnect.se/id-binding/process/presentbinding` ([4.4](#foreign-identity-present-in-the-population-register))
-
-- `http://id.swedenconnect.se/id-binding/process/iddoc-scanning` ([4.5](#passport-or-id-card-scanning))
+**Description:** A mix of processes must be applied in order to achieve the 
+highest level of confidence in record matching. It requires the process `http://id.swedenconnect.se/id-binding/process/registered` ([4.1](#essential-matching-population-register)) combined with one of the following processes:
+- `http://id.swedenconnect.se/id-binding/process/swedish-eid` ([4.4](#use-of-swedish-eid))
+- `http://id.swedenconnect.se/id-binding/process/presentbinding` ([4.5](#confirmed-by-relative))
+- `http://id.swedenconnect.se/id-binding/process/iddoc-scanning` ([4.6](#passport-or-id-card-scanning))
     
 <a name="record-matching-processes"></a>
 ## 4. Record Matching Processes
