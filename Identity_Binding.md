@@ -111,21 +111,23 @@ These levels can be used in the authorisation process by the relying party.
 **Description:** Level of confidence in binding as a result from an automated decision process when the eIDAS attributes from the foreign eID are matched to an individual's record in the Swedish population register.
 
 Following processes must have been applied:
-- `http://id.swedenconnect.se/id-binding/process/registered` ([4.1](#matching-against-the-population-register))
-- `http://id.swedenconnect.se/id-binding/process/populationregister` ([4.2](#matching-against-the-population-register))
+- `http://id.swedenconnect.se/id-binding/process/registered` ([4.1](#essential-matching-population-register))
+- `http://id.swedenconnect.se/id-binding/process/populationregister` ([4.2](#elevated-matching-population-register))
     
 <a name="enhanced-binding"></a>
 ### 3.2. Enhanced Binding (B)
 
 **URI:** `http://id.swedenconnect.se/id-binding/level/enhanced`
 
-**Description:** Enhanced binding. Apart from meeting all requirements for the basic level, the binding has been strengthened with additional steps. 
+**Description:** In addition to meeting all the requirements for basic level, 
+the binding can be endorsed with a higher confidence when the process 
+`http://id.swedenconnect.se/id-binding/process/nordicid` ([4.3](#nordic-id-in-population-register)) 
+can match attribute in the assertion from eIDAS to a registered nordic identification number in the Swedish population register.
 
-The process `http://id.swedenconnect.se/id-binding/process/populationregister` 
-([4.1](#matching-against-the-population-register)) must have been applied as well
-as at least one of the following processes:
-
-- `http://id.swedenconnect.se/id-binding/process/relative` ([4.3](#attestation-from-relative))
+In summary, following processes must have been applied:
+- `http://id.swedenconnect.se/id-binding/process/registered` ([4.1](#essential-matching-population-register))
+- `http://id.swedenconnect.se/id-binding/process/populationregister` ([4.2](#elevated-matching-population-register))
+- `http://id.swedenconnect.se/id-binding/process/relative` ([4.3](#nordic-id-in-population-register))
     
 <a name="verified-binding"></a>
 ### 3.3. Verified Binding (C)
