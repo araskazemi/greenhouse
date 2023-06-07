@@ -50,7 +50,7 @@ Public relying parties in Sweden commonly use the Swedish personal
 identification number (a.k.a. personnummer) or the Swedish coordination 
 number (a.k.a. samordningsnummer) as identifier to carry out the 
 authorisation of the authenticated user. These records cannot be found
-in attributes when user authenticatation is performed through eIDAS. 
+in eIDAS attributes. 
 
 The Identity Binding Service is an extension to Swedish eIDAS-node and 
 a part of Sweden's digital infrastructure aimed at linking records in 
@@ -99,7 +99,7 @@ about attribute release during an eIDAS authentication.
 <a name="identity-binding-levels"></a>
 ## 3. Identity Binding Levels
 Linked identifications through the Identity Binding Service can be provided in three different levels of confidence. 
-These levels can be used in the authorization process by the relying party. 
+These levels can be used in the authorisation process by the relying party. 
 
 <a name="basic-binding"></a>
 ### 3.1. Basic Binding
