@@ -72,7 +72,7 @@ provide this information in the assertion to relying party.
 Identity binding can be made through a number of different [Record Matching Processes](#record-matching-processes). 
 These processes are run separately or in combinations and can result in linked 
 identifications based on three different levels of confidence. See also 
-[Identity Binding Levels](#identity-binding-levels)
+[section 3, "Identity Binding Levels"](#identity-binding-levels)
 
 > TODO: Include links to https://elegitimation.se and other resources where we describe
 the ID-matching service.
@@ -91,7 +91,7 @@ the Swedish relying party (service provider). These attributes are:
 personal identity number that was bound to the eIDAS identity.
 
 - `urn:oid:1.2.752.201.3.6` (personalIdentityNumberBinding) - Contains an URI that
-represents the "binding level", see [section 3, "Identity Binding Levels"](#identity-binding-levels) below.
+represents the "Identity Binding Level", see [section 3, "Identity Binding Levels"](#identity-binding-levels) below.
 
 See sections 2.5, "eIDAS Natural Person Attribute Set", and 3.3.2, "The mappedPersonalIdentityNumber and personalIdentityNumberBinding Attributes", of [Attribute Specification for the Swedish eID Framework](https://docs.swedenconnect.se/technical-framework/updates/04_-_Attribute_Specification_for_the_Swedish_eID_Framework.html) for more information
 about attribute release during an eIDAS authentication.
