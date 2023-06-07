@@ -31,11 +31,11 @@ Copyright &copy; <a href="https://www.digg.se">The Swedish Agency for Digital Go
     
 4. [**Record Matching Processes**](#record-matching-processes)
 
-    4.1. [Essential matching of record in the Population Register](#essential-matching-population-register)
+    4.1. [Essential matching of record in the population register](#essential-matching-population-register)
 
-    4.2. [Elevated matching of record in the Poulation Register](#elevated-matching-population-register)
+    4.2. [Elevated matching of record in the poulation register](#elevated-matching-population-register)
     
-    4.3. [Nordic Identification Number found in the Population Register](#nordic-id-in-population-register)
+    4.3. [Nordic Identification Number found in the population register](#nordic-id-in-population-register)
 
     4.4. [Use of Swedish eID](#use-of-swedish-eid)
     
