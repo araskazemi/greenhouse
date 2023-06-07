@@ -127,7 +127,7 @@ can match attribute in the assertion from eIDAS to a registered nordic identific
 In summary, following processes must have been applied:
 - `http://id.swedenconnect.se/id-binding/process/registered` ([4.1](#essential-matching-population-register))
 - `http://id.swedenconnect.se/id-binding/process/populationregister` ([4.2](#elevated-matching-population-register))
-- `http://id.swedenconnect.se/id-binding/process/relative` ([4.3](#nordic-id-in-population-register))
+- `http://id.swedenconnect.se/id-binding/process/nordicid` ([4.3](#nordic-id-in-population-register))
     
 <a name="verified-binding"></a>
 ### 3.3. Verified Binding (C)
