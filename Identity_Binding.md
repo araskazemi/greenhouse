@@ -49,8 +49,8 @@ Copyright &copy; <a href="https://www.digg.se">The Swedish Agency for Digital Go
 Public relying parties in Sweden commonly use the Swedish personal 
 identification number (a.k.a. personnummer) or the Swedish coordination 
 number (a.k.a. samordningsnummer) as identifier to carry out the 
-authorisation of the authenticated user. These records are however not 
-provided in attributes when user authenticatation is performed through eIDAS. 
+authorisation of the authenticated user. These records cannot be found
+in attributes when user authenticatation is performed through eIDAS. 
 
 The Identity Binding Service is an extension to Swedish eIDAS node and 
 a part of Sweden's digital infrastructure aimed at linking records in 
