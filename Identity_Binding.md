@@ -1,10 +1,9 @@
-# Binding of eIDAS Attributes to Swedish Personal Identity Numbers
+# Binding of eIDAS identity to records in the Swedish population register
 
-### 2023-04-24 (draft)
+### 2023-06-07 (draft)
 
-This document contains information about the identity binding process where 
-an identity received from an eIDAS assertion is bound to a Swedish personal
-identity number.
+This document contains information about the binding process when an eIDAS 
+identity is bound to a record in the Swedish population register.
 
 ---
 
@@ -47,14 +46,23 @@ Copyright &copy; <a href="https://www.digg.se">The Swedish Agency for Digital Go
 <a name="introduction"></a>
 ## 1. Introduction
 
-This document contains information about the identity binding process where 
-an identity received from an eIDAS assertion is bound to a Swedish personal
-identity number.
+Public relying parties in Sweden commonly use the Swedish personal 
+identification number (a.k.a. personnummer) or the Swedish coordination 
+number (a.k.a. samordningsnummer) to carry out identification of the 
+authenticated user. These records are however not provided in attributes 
+when user authenticatation is performed through eIDAS. 
 
-> TODO: more ...
+The Identity Binding Service is an extension to Swedish eIDAS node and 
+a part of Sweden's digital infrastructure aimed at linking records in 
+the Swedish population register to notified eIDs from member states 
+outside of Sweden.
 
 <a name="the-identity-binding-service"></a>
 ## 2. The Identity Binding Service
+The Identity Binding Service can be used by end-users, who are 
+authenticated through eIDAS, in those cases when:
+- end-user have a Swedish personal identification number (a.k.a. personnummer) or the Swedish coordination number (a.k.a. samordningsnummer) in the Swedish population register.
+- end-user have chosen to bound this record to his/her eIDAS notified eID
 
 The process, or processes, of binding a foreign identity to a Swedish personal identity
 number is the responsibility of the Identity Binding service.  
