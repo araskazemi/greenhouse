@@ -91,7 +91,7 @@ the Swedish relying party (service provider). These attributes are:
 personal identity number that was bound to the eIDAS identity.
 
 - `urn:oid:1.2.752.201.3.6` (personalIdentityNumberBinding) - Contains an URI that
-represents the "Identity Binding Level", see [section 3, "Identity Binding Levels"](#identity-binding-levels) below.
+represents the [Identity Binding Level](#identity-binding-levels).
 
 See sections 2.5, "eIDAS Natural Person Attribute Set", and 3.3.2, "The mappedPersonalIdentityNumber and personalIdentityNumberBinding Attributes", of [Attribute Specification for the Swedish eID Framework](https://docs.swedenconnect.se/technical-framework/updates/04_-_Attribute_Specification_for_the_Swedish_eID_Framework.html) for more information
 about attribute release during an eIDAS authentication.
