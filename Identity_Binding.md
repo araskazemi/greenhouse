@@ -29,7 +29,7 @@ Copyright &copy; <a href="https://www.digg.se">The Swedish Agency for Digital Go
     
     3.3. [Verified Binding](#verified-binding)
     
-4. [**Identity Binding Processes**](#identity-binding-processes)
+4. [**Record Matching Processes**](#record-matching-processes)
 
     4.1. [Matching Against the Population Register](#matching-against-the-population-register)
     
@@ -69,7 +69,7 @@ provide this information in the assertion to relying party.
 
 <a name="making-a-binding"></a>
 ### 2.1. Making a Binding
-Identity binding can be made through a number of different record matching processes. 
+Identity binding can be made through a number of different [Record Matching Processes](#record-matching-processes). 
 These processes are run separately or in combinations and can result in linked 
 identifications based on three different levels of confidence. See also 
 [Identity Binding Levels](#identity-binding-levels)
