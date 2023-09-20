@@ -48,7 +48,7 @@ sequenceDiagram
     N->>RP: Förmedlar intyget i enlighet med eIDAS samt en vidimerad kopia på personbeviset
     RP->>RP: Auktorisation
     Note right of RP: Förlitande part uför<br />nödvändiga kontroller<br />för beslut om åtkomst
-    destroy U
+
     RP->>U: Användaren ges åtkomst till e-tjänst
 
   
