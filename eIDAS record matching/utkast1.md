@@ -6,10 +6,16 @@ Konceptuell modell
 %%{init: {'sequence': { 'mirrorActors': true, 'rightAngles': true, 'messageAlign': 'center', 'actorFontWeight': 900, 'actorFontSize': 18, 'noteFontWeight': 100, 'noteFontSize': 12}}}%%
 %%{init: {'theme': 'base', 'themeVariables': {'labelBoxBkgColor': '#F5F5F4', 'labelBoxBorderColor': '#998980', 'actorBorder': '#696059', 'actorBkg': '#F1EFEC', 'activationBorderColor': '#CD796E', 'activationBkgColor': '#CD796E', 'noteBkgColor': '#F5E6D7', 'noteBorderColor': '#CE8036'}}}%%
 
+
 sequenceDiagram
-    
+    autonumber
     title: Identitetsmatchning (från ett juridiskt perspektiv)
-    create actor U as Användare
+    actor U as Användare
+    participant RP as E-tjänst hos<br />en myndighet<br />i Sverige
+    participant IDM as Online-tjänst som erbjuder<br />ett eget utrymme för<br />identitetsmatchning
+    participant N as Sveriges<br />eIDAS-nod
+    participant eID as eIDAS-nod hos<br />det land som utför<br />e-legitimeringen
+    participant SV as Skatteverket
     RP->>U: Vi behöver identifiera dig.<br />Välj inloggningsmetod.
     U->>RP: Jag vill logga in med mitt Foreign eID
     RP->>N: Vi vill identifiera en användare med<br />ett Foreign eID i enlighet med eIDAS-förordningen
