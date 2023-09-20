@@ -3,7 +3,6 @@ Konceptuell modell
 
 ```mermaid
 
-
 sequenceDiagram
     autonumber
     title: Identitetsmatchning (från ett juridiskt perspektiv)
@@ -49,3 +48,5 @@ sequenceDiagram
     RP->>U: Användaren ges åtkomst till e-tjänst
 
 ```
+
+
