@@ -10,11 +10,7 @@ sequenceDiagram
     autonumber
     title: Identitetsmatchning (från ett juridiskt perspektiv)
     create actor U as Användare
-    participant RP as E-tjänst hos<br />en myndighet<br />i Sverige
-    participant IDM as Online-tjänst som erbjuder<br />ett eget utrymme för<br />identitetsmatchning
-    participant N as Sveriges<br />eIDAS-nod
-    participant eID as eIDAS-nod hos<br />det land som utför<br />e-legitimeringen
-    participant SV as Skatteverket
+
     RP->>U: Vi behöver identifiera dig.<br />Välj inloggningsmetod.
     U->>RP: Jag vill logga in med mitt Foreign eID
     RP->>N: Vi vill identifiera en användare med<br />ett Foreign eID i enlighet med eIDAS-förordningen
