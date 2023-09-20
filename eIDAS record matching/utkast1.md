@@ -10,7 +10,7 @@ Konceptuell modell
 sequenceDiagram
     autonumber
     title: Identitetsmatchning (från ett juridiskt perspektiv)
-    actor U as Användare
+    create actor U as Användare
     participant RP as E-tjänst hos<br />en myndighet<br />i Sverige
     participant IDM as Online-tjänst som erbjuder<br />ett eget utrymme för<br />identitetsmatchning
     participant N as Sveriges<br />eIDAS-nod
