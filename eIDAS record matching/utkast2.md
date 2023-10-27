@@ -1,5 +1,5 @@
 ## Skatteverket kontrollerar om det finns dubbletter
-Konceptuell modell6
+Konceptuell modell
 
 
 ```mermaid
