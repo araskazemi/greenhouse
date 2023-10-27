@@ -32,7 +32,7 @@ sequenceDiagram
     U-->>eID: Använder sin e-legitimation för att identifiera sig
     eID->>N: Vi har identifierat användaren.<br />Här är ett intyg på e-legitimeringen! 
     N->>IDM: Förmedlar intyget i enlighet med eIDAS
-    IDM->>U: Ber den identifierade användaren om att mata in<br />sitt personnummer/samordningsnummer för att<br />hämta ett personbevis eller motsvarande utdrag 
+    IDM->>U: Ber den identifierade användaren om att mata in<br />sitt personnummer/samordningsnummer för att<br />hämta ett 'personbevis' 
     U->>IDM: Skriver sitt personnummer/samordningsnummer<br />i ett formulär och trycker på knappen 'hämta'
     IDM->>SV: Användaren som är identifierad med eIDAS vill hämta uppgifter om sig själv på medium för automatiserad behandling
     SV->>SV: Kontrollerar om dubbletter finns?
