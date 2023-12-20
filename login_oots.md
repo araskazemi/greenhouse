@@ -43,7 +43,7 @@ sequenceDiagram
   användare-->>sdg: förflyttar tillbaka till e-jänsten<br />för förmedling av svenska bevis till<br />utländskt förfarande
   activate sdg
   sdg-->>sdg: 
-  Note right of sdg: beslut om åtkomst
+  Note right of sdg: auktorisationstjänsten<br />fattar beslut om åtkomst
   sdg->>användare: användaren blir inloggad
   deactivate sdg
   deactivate användare
