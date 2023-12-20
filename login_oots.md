@@ -6,7 +6,7 @@
 sequenceDiagram
   actor användare
   participant sdg as E-tjänst för förmedling<br />av svenska bevis till<br />utländskt förfarande
-  Note over sdg: Här finns auktorisationstjänsten<br />som bl a tar hand om inloggning
+  Note over sdg: Här finns auktorisationstjänsten<br />som bl a tar hand om inloggningen
   användare->>sdg: väljer att logga in med<br />sitt e-id utfärdat i annat land
   activate användare
   activate sdg
