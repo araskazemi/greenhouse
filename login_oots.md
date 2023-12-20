@@ -5,7 +5,7 @@
 
 sequenceDiagram
   actor användare
-  participant sdg as E-tjänst för förmedling<br />av svenska<br />bevis till utländskt förfarande
+  participant sdg as E-tjänst för förmedling<br />av svenska bevis till<br />utländskt förfarande
   Note over sdg: Förmedling av svenska bevis<br />till utländskt förfarande
   användare->>sdg: väljer att logga in med<br />sitt e-id utfärdat i annat land
   activate användare
