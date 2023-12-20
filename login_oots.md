@@ -40,14 +40,14 @@ sequenceDiagram
   Note right of Sveriges eIDAS Connector: intyg valideras
   Sveriges eIDAS Connector->>användare: förmedlar intyg i enlighet med tekniskt ramverk för Sweden Connect
   deactivate Sveriges eIDAS Connector
-  användare-->>sdg: förflyttar tillbaka till onlinetjänsten<br />för sdg
+  användare-->>sdg: förflyttar tillbaka till e-jänsten<br />för förmedling av svenska bevis till<br />utländskt förfarande
   activate sdg
   sdg-->>sdg: 
   Note right of sdg: beslut om åtkomst
   sdg->>användare: användaren blir inloggad
   deactivate sdg
   deactivate användare
-  Note right of användare:  Användaren kan nu<br />genomföra sdg
+  Note right of användare:  Användaren kan nu<br />använda e-tjänsten
   
 
 ```
