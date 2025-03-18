@@ -6,4 +6,5 @@ När en organisation har registrerat en eller flera tjänster kan behörig före
 
 * [Ansluta organisation till den federativa infrastrukturen](organisation.md#anslutning_org-01)
 * [Administrera personer som ska få företräda organisationen](organisation.md#anslutning_org-02)
-* [Administrera inställningar och digitala tjänster (entiteter)](organisation.md#anslutning_org-03) 
+* [Administrera inställningar och digitala tjänster (entiteter)](organisation.md#anslutning_org-03)
+* [Anskaffa tillitsmärke](tillitsmarke.md)
