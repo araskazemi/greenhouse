@@ -1,15 +1,15 @@
 # Anskaffa tillitsmärke
 :pushpin: **Processbeskrivning** <br />
-Organisation som har en tjänst ansluten till den federativa infrastrukturen anskaffar tillitsmärke för sin tjänst.
+Organisationen som har en digital tjänst ansluten till den federativa infrastrukturen anskaffar tillitsmärke för sin tjänst.
 
 :white_circle: **Start** <br />
-Organisation ansöker om medlemskap till den federativa infrastrukturen för identitets- och behörighetshantering inom ramen för Ena (Sveriges digitala infrastruktur).
+Organisation ansöker om tillitsmärke hos utfärdare av tillitsmärke.
 
 :black_circle: **Slut** <br />
-Organisation är medelm i den federativa infrastrukturen.
+Organisation tilldelas ett tekniskt verifierbart tillitsmärke eller drar tillbaka sin ansökan.
 
 :bookmark_tabs: **Önskat resultat** <br />
-Operatören kan i enlighet med anslutningsreglerna registrera en kontaktperson som blir huvudkontakt att företräda organisationen.  <br /><br />
+Organisationer kan anskaffa olika typer av tillitsmärken för sina digitala tjänster i den federativa infrastrukturen. <br /><br />
 
 ![Organisation anskaffar tillitsmärke](anslutning_tm-01.svg)
 <br /><br />
