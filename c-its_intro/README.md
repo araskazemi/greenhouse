@@ -50,10 +50,13 @@ Interoperabilitet & tillit: gemensam europeisk trust-modell/PKI måste fungera i
 Spelregler: teknikval, certifikathantering och integritetspolicy måste hålla över tid. 
 
 ## Tillit och säkerhet i C-ITS
+Uppdateras inom kort.
 
 ## Hur går det till i praktiken
+Uppdateras inom kort.
 
 ## C-ITS i Sverige
+Uppdateras inom kort.
 
-### Slutsatser
-
+## Slutsatser
+Uppdateras inom kort.
