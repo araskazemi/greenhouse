@@ -45,7 +45,9 @@ Några exempel på anvädningsfall:
 
 #### Utmaningar
 Införandegrad: nyttan växer när många fordon och vägar är uppkopplade.
+
 Interoperabilitet & tillit: gemensam europeisk trust-modell/PKI måste fungera i praktiken mellan många aktörer.
+
 Spelregler: teknikval, certifikathantering och integritetspolicy måste hålla över tid. 
 
 ### Tillit och säkerhet i C-ITS
