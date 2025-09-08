@@ -43,11 +43,25 @@ Några exempel på anvädningsfall:
 * Vägarbete: Vägkantsutrustning (RSU) skickar varning + rekommenderad hastighet → mjukare flöde och färre “sista-sekunden-inbromsningar”. 
 
 ### Utmaningar
-Införandegrad: nyttan växer när många fordon och vägar är uppkopplade.
+#### Införandegrad: nyttan växer när många fordon och vägar är uppkopplade.
+C-ITS bygger på nyttan av att “alla pratar samma språk” – men värdet blir stort först när många bilar och vägar är med.
 
-Interoperabilitet & tillit: gemensam europeisk trust-modell/PKI måste fungera i praktiken mellan många aktörer.
+Hönan-och-ägget-problemet: Fordonstillverkare tvekar att lägga in tekniken om infrastrukturen är begränsad, och väghållare tvekar att investera i utrustning om få fordon kan använda det.
 
-Spelregler: teknikval, certifikathantering och integritetspolicy måste hålla över tid. 
+Exempel: Om endast 8 % av fordon och RSU:er kan varna för halka, då ser 92 % aldrig varningen → liten samhällsnytta. Men vid 30–40 % penetration börjar effekten bli märkbar. Först då blir C-ITS riktigt användbart.
+
+#### Interoperabilitet & tillit
+När fordon rör sig mellan städer och länder måste budskapen i meddelandena tolkas på samma sätt. ETSI och CEN har format och regler, men små skillnader i implementation kan skapa problem. Uppkomst av olika dialekter kan medföra at alla inte förstår alltid allt.
+
+Meddelanden måste vara signerade så att mottagaren kan lita på att de är äkta. Det innebär att certifikat som är utfärdat i ett land måste accepteras också av alla andra länder. Om tilliten brister eller om länder börjar införa egna alternativa trust modeller kan man få “tillitsluckor” – t ex en tysk bil som inte litar på en svensk väginfrastruktur.
+
+#### Styrning och konflikter
+Teknikval, certifikathantering och integritetspolicy måste hålla över tid. Det finns dock flera risker:
+* EU har rekommenderat “hybrid” (ITS-G5 + mobilnät), men industrin har delade åsikter. Vissa förespråkar C-V2X (5G), andra ser värde i ITS-G5. Risken: parallella ekosystem som inte kan prata fullt ut med varandra.
+* Det pågår diskussioner om vilket radiospektrum C-ITS ska få, särskilt eftersom mobilindustrin vill ha samma frekvenser för 5G. Det kan skapa regulatoriska konflikter.
+* Vägar, fordon, mobilnät och myndigheter ägs av olika aktörer med olika incitament. Det krävs stark samordning.
+* Fordon har en livslängd på ca 15–20 år. Infrastruktur ännu längre. Beslut som fattas nu måste hålla i decennier, annars riskerar man “tekniska återvändsgränder”.
+* Ekonomisk utmaning: vem betalar? Fordonstillverkare, staten, operatörer, eller en mix? – olika i varje land!
 
 ## Tillit och säkerhet i C-ITS
 Uppdateras inom kort.
