@@ -10,8 +10,11 @@ gemensamt för alla inom ett geografiskt område för kunna varna och hjälpa va
 
 ### Vem pratar med vem?
 V2V: fordon ↔ fordon (t ex “jag bromsar hårt nu!”)
+
 V2I: fordon ↔ infrastruktur (t ex “hjulspinn/ABS-aktivering – varning för halt väglag!”)
+
 I2V: infrastruktur ↔ fordon (t ex “tillfällig hastighetsbegränsning”) 
+
 V2X: fordon ↔ “allt” runtomkring (fordon, trafikljus, vägskyltar, driftledningar).
 
 I Europa koordineras utrullningen via C-Roads-plattformen som ser till att saker funkar likadant över gränserna. 
