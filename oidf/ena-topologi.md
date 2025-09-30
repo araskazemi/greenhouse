@@ -48,8 +48,8 @@ Ställ följande frågor (om svaret är ”ja” på flera → separera):
 
 ## Styrning, juridik och drift (praktiskt upplägg som jag upplever vi är överens om)
 * **Operatörroll vs. Policyroll**: Separera Policy Authority (sätter krav, ackrediterar) från Federationsoperatör (drift, nyckelhantering, metadata­publicering). En aktör kan bära båda, men separationen minskar intressekonflikter.
-* **Nyckelrullning & flerårig överlapp**: För tillitsankare och mellanled – planera tidsöverlapp och pre-publishing av nya nycklar i kedjan för att undvika avbrott.
+* **Nyckelrullning och flerårig överlapp**: För tillitsankare och mellanled – planera tidsöverlapp och pre-publishing av nya nycklar i kedjan för att undvika avbrott.
 * **Incident- och sanktionsprocess**: Definiera transparent revocation (spärra trust marks eller entiteter), grace periods och kommunikationskanaler per sektor.
-* **Ackreditering & revision**: Lätta, återkommande kontroller för de flesta; djupare för känsliga roller (t ex OP/AS i vården). Publicera status öppet.
+* **Ackreditering och revision**: Lätta, återkommande kontroller för de flesta; djupare för känsliga roller (t ex OP/AS i vården). Publicera status öppet.
 * **Leverantörsvänligt**: ”Once qualified, usable everywhere” – ett leverantörscase ska räcka för flera sektorer om trust marks och kravmatchning stämmer.
 
