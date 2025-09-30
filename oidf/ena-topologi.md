@@ -32,7 +32,7 @@ Dessa är federation entities som förvaltar egna policy-tillägg men är bundna
 
 Delegering i kedjan i stället för “superrot”: Dvs om man ändå vill ha en symbolisk nationell topp kan den vara policybärare (ledningsaktören), medan signering och drift delegeras till sektorsankare (mindre blast radius, samma nationella linje).
 
-### Relation till SAML2, OAuth2 och mTLS
+### Relation till SAML2, mTLS och Radius
 SAML-, mTLS och Radius-federationer körs parallellt under respektive federationsoperatör genom metadata­aggregat/MDQ med samma policyfamilj.
 Man kan använda entity categories/attributprofiler som speglar OIDC-trust marks för att minska översättningsfriktion. Men troligtvis kommer många mjukvaror inte förstå den typen av metadata. 
 Därför vore lämpligt att ge operatören i uppdrag att skapa flöden av metadata som begränsar omfattningen utifrån entiteter som erhållit ett specifikt OIDC-trust mark.
